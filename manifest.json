@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "X11 Disbarred",
+    "description": "Simple aesthetics tool that converts any of the blue skill bars on X11 to numbers.",
+    "version": "0.1",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [ {
+        "js": [ "jquery-2.1.3.min.js", "background.js" ],
+        "matches": [ "https://www.xperteleven.com/*", "http://www.xperteleven.com/*"]
+    }]
+}
