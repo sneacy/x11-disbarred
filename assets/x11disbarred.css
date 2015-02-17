@@ -1,0 +1,36 @@
+@font-face {
+    font-family: distantGalaxy;
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/distgalaxy.woff') format('woff');
+}
+
+.disbarredSkillSpan {
+    font-family: distantGalaxy;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.tierOne {
+    color: #5280ff;
+}
+
+.tierTwo {
+    color: #5044ff;
+}
+
+.tierThree {
+    color: #1e00ff;
+}
+
+.tierFour {
+    color: #001e8d;
+}
+
+.godTier {
+    color: #002457;
+}
+
+td.disbarred {
+    text-align: center;
+    vertical-align: bottom;
+}
